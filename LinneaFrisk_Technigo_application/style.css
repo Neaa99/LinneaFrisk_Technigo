@@ -1,0 +1,97 @@
+/* Example styling of a h1 element */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #e3e9f7;
+  font-size: 50px;
+  text-shadow: 3px 3px 2px #7a7099;
+}
+
+p {
+text-align: center;
+margin: 2rem;
+}
+
+
+body {
+  background: linear-gradient(to bottom right, #ccbbff, 
+  #ccbbff);
+    min-height: 100vh;
+  font-family: poppins;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info {
+  min-height: 60vh;
+  width: 60%;
+  margin-top: 3rem;
+  background-color: aqua;
+  border-radius: 2rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  box-shadow: 6px 6px 20px rgba(122,122,122,0.212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+ -webkit-backdrop-filter: blur(2rem);
+  backdrop-filter: blur(15px);
+  display: flex;
+}
+
+.links {
+margin-bottom: 1rem;
+}
+
+a {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  opacity: 0.7; 
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+background: white;
+background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+position: absolute;
+border-radius: 50%;
+}
+
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+  height: 7rem;
+  width: 7rem;
+}
+
+.circle2 {
+  bottom: 3%;
+  right: 15%;
+  height: 12rem;
+  width: 12rem;
+}
+
+.circle3 {
+  top: 10%;
+  right: 73%;
+  height: 20rem;
+  width: 20rem;
+}
